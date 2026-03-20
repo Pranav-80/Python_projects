@@ -153,7 +153,7 @@ class purchase:
             
             
 #_main_
-mycon = mysql.connect(host = 'localhost', user = 'root', password = 'Pranav@2007', database = 'E_Commerce', auth_plugin="mysql_native_password")
+mycon = mysql.connect(host = 'localhost', user = 'root', password = 'passwd', database = 'E_Commerce', auth_plugin="mysql_native_password")
 cursor = mycon.cursor()
 
 while True:
