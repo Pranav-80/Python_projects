@@ -39,7 +39,7 @@ A rule-based text game and educational tool where users build a custom biologica
 
 ---
 
-#📂 Repository Structure
+## 📂 Repository Structure
 ```text
 Python_projects/
 ├── E-Commerce.py          # E-commerce store and cart logic
@@ -59,18 +59,4 @@ To run these scripts, you need Python 3.x and the following external libraries:
 
 ---
 
-## ⚠️ Database Setup Instructions (Required)
-Two of the projects (`E-Commerce.py` and `ToDoList.py`) require a local MySQL database to function. To make setup seamless, this repository includes self-contained database dump files (`.sql`) with pre-populated tables and mock data.
 
-### Step 1: Import the Databases
-You can import the required databases using either the command line or MySQL Workbench.
-
-**Using Command Line**
-Open your terminal, navigate to this project folder, and run the following commands (enter your MySQL root password when prompted):
-```bash
-mysql -u root -p < Ecommerce.sql
-mysql -u root -p < TodoList.sql
-
-**Install dependencies via pip:**
-```bash
-pip install mysql-connector-python tabulate
